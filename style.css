@@ -1,0 +1,74 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0 50px;
+    background:linear-gradient(105deg, #153677,#4e085f);
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .app {
+    width: 500px;
+    height: 500px;
+    background-color: #dadada;
+    border-radius: 8px;
+    padding: 15px;
+    overflow-y: scroll;
+    color: #212529;
+  }
+  
+  .app::-webkit-scrollbar {
+    width: 0 !important;
+  }
+  
+  #addNew {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f1f3f5;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .fa-plus {
+    background-color: #4caf50;
+    padding: 3px;
+    border-radius: 3px;
+  }
+  
+  #tasks {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+  
+  #tasks div {
+    border:   #000000;
+    background-color: #ffffff;
+    border-radius: 6px;
+    padding: 5px;
+    display: grid;
+    gap: 4px;
+  }
+  
+  #tasks div .options {
+    justify-self: center;
+    display: flex;
+    gap: 20px;
+  }
+  
+  #tasks div .options i {
+    cursor: pointer;
+  }
+  
+  #msg {
+    color: red;
+  }
+
+  .icon{
+    width: 30px;
+    margin-left: 10px;
+  }
